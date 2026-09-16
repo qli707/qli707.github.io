@@ -1,1 +1,562 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Qingxia Li | Fisk University</title> <style> /* ========================= General ========================= */ * { box-sizing: border-box; } body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; color: #333; background: #ffffff; line-height: 1.7; } .container { width: 90%; max-width: 1050px; margin: 0 auto; } /* ========================= Navigation ========================= */ .navbar { border-bottom: 1px solid #e5e5e5; background: #ffffff; } .nav-container { min-height: 70px; display: flex; align-items: center; justify-content: space-between; } .site-name { font-size: 1.3rem; font-weight: 600; color: #222; text-decoration: none; } nav { display: flex; gap: 25px; } nav a { color: #555; text-decoration: none; font-size: 0.95rem; } nav a:hover { color: #000; } /* ========================= Profile Section ========================= */ .profile { display: flex; align-items: center; gap: 45px; padding: 70px 0 60px; } .profile-photo { width: 190px; height: 190px; object-fit: cover; border-radius: 50%; } .profile-info { flex: 1; } .profile-info h1 { margin: 0 0 5px; font-size: 2.5rem; font-weight: 600; color: #222; } .position { margin: 0 0 18px; font-size: 1.15rem; color: #666; } .profile-info p { margin: 5px 0; } /* ========================= Links ========================= */ .profile-links { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 20px; } .profile-links a { color: #333; text-decoration: none; border-bottom: 1px solid #aaa; } .profile-links a:hover { color: #000; border-bottom-color: #000; } /* ========================= Main Sections ========================= */ section { padding: 45px 0; } section h2 { margin: 0 0 25px; font-size: 1.8rem; font-weight: 600; color: #222; } section p { max-width: 850px; } /* ========================= Research Areas ========================= */ .research-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px 50px; margin-top: 25px; } .research-item { padding: 15px 0; border-bottom: 1px solid #eeeeee; } .research-item strong { color: #222; } /* ========================= News ========================= */ .news-item { margin-bottom: 18px; } .news-date { font-weight: 600; margin-right: 10px; } .news-item a { color: #333; } /* ========================= Footer ========================= */ footer { border-top: 1px solid #e5e5e5; padding: 30px 0; color: #777; font-size: 0.9rem; } /* ========================= Mobile ========================= */ @media (max-width: 700px) { .nav-container { flex-direction: column; align-items: flex-start; padding: 20px 0; } nav { margin-top: 15px; flex-wrap: wrap; gap: 15px; } .profile { flex-direction: column; align-items: flex-start; padding-top: 45px; } .profile-photo { width: 150px; height: 150px; } .profile-info h1 { font-size: 2rem; } .research-list { grid-template-columns: 1fr; } } </style> </head> <body> <!-- ========================= Navigation ========================= --> <header class="navbar"> <div class="container nav-container"> <a href="index.html" class="site-name"> Qingxia Li </a> <nav> <a href="index.html">Home</a> <a href="research.html">Research</a> <a href="publications.html">Publications</a> <a href="grants.html">Grants</a> <a href="teaching.html">Teaching</a> <a href="recognition.html">Recognition</a> <a href="contact.html">Contact</a> </nav> </div> </header> <!-- ========================= Profile ========================= --> <main> <div class="container"> <section class="profile"> <!-- Replace this filename with your photo --> <img src="images/qingxia-li.jpg" alt="Qingxia Li" class="profile-photo" > <div class="profile-info"> <h1>Qingxia Li</h1> <p class="position"> Professor and Chair </p> <p> Department of Mathematics and Computer Science </p> <p> Fisk University </p> <p> Nashville, Tennessee </p> <div class="profile-links"> <a href="files/Qingxia_Li_CV.pdf"> CV </a> <a href="https://scholar.google.com/" target="_blank" > Google Scholar </a> <a href="https://github.com/" target="_blank" > GitHub </a> <a href="mailto:qli@fisk.edu"> Email </a> </div> </div> </section> <!-- ========================= About ========================= --> <section> <h2>About</h2> <p> I am a Professor and Chair in the Department of Mathematics and Computer Science at Fisk University. My research interests lie at the intersection of applied mathematics, computational science, data science, and mathematical modeling. </p> <p> My research focuses on developing computational and mathematical approaches to address interdisciplinary problems in STEM, with applications in computational biology, biostatistics, data science, and mathematical modeling. </p> <p> I am also interested in STEM education, undergraduate research, and the development of computational thinking and data-driven skills among undergraduate students. </p> </section> <!-- ========================= Research ========================= --> <section> <h2>Research</h2> <div class="research-list"> <div class="research-item"> <strong> Applied Mathematics </strong> </div> <div class="research-item"> <strong> Computational Science </strong> </div> <div class="research-item"> <strong> Mathematical Modeling </strong> </div> <div class="research-item"> <strong> Computational Biology </strong> </div> <div class="research-item"> <strong> Biostatistics and Data Science </strong> </div> <div class="research-item"> <strong> STEM Education </strong> </div> </div> </section> <!-- ========================= Recent Highlights ========================= --> <section> <h2>Recent Highlights</h2> <div class="news-item"> <span class="news-date"> 2026 </span> Research and educational initiatives in computational science, mathematical modeling, and STEM education. </div> <div class="news-item"> <span class="news-date"> 2026 </span> Continuing research collaborations with students and faculty across mathematics, computer science, and interdisciplinary STEM. </div> <div class="news-item"> <span class="news-date"> 2025 </span> Research and dissemination activities in computing careers and STEM education. </div> </section> <!-- ========================= Contact ========================= --> <section> <h2>Contact</h2> <p> <strong> Dr. Qingxia Li </strong> <br> Professor and Chair <br> Department of Mathematics and Computer Science <br> Fisk University <br> Nashville, Tennessee </p> <p> Email: <a href="mailto:qli@fisk.edu"> qli@fisk.edu </a> </p> </section> </div> </main> <!-- ========================= Footer ========================= --> <footer> <div class="container"> © 2026 Qingxia Li · Fisk University </div> </footer> </body> </html>
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dr. Qingxia Li | Fisk University</title>
+
+    <style>
+
+        /* =========================================================
+           GENERAL
+           ========================================================= */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Arial,
+                sans-serif;
+
+            color: #333;
+            background: #ffffff;
+            line-height: 1.7;
+        }
+
+        a {
+            color: #333;
+        }
+
+        a:hover {
+            color: #000;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+
+        /* =========================================================
+           NAVIGATION
+           ========================================================= */
+
+        .navbar {
+            border-bottom: 1px solid #e5e5e5;
+            background: #ffffff;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            min-height: 70px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-name {
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: #222;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        nav {
+            display: flex;
+            gap: 22px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        nav a {
+            color: #555;
+            text-decoration: none;
+            font-size: 0.94rem;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+
+        /* =========================================================
+           PROFILE
+           ========================================================= */
+
+        .profile {
+            display: flex;
+            align-items: center;
+
+            gap: 45px;
+
+            padding: 70px 0 60px;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+
+            object-fit: cover;
+
+            border-radius: 50%;
+
+            flex-shrink: 0;
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        .profile-info h1 {
+            margin: 0 0 5px;
+
+            font-size: 2.6rem;
+            font-weight: 600;
+
+            color: #222;
+        }
+
+        .position {
+            margin: 0 0 20px;
+
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .profile-info p {
+            margin: 4px 0;
+        }
+
+
+        /* =========================================================
+           PROFILE LINKS
+           ========================================================= */
+
+        .profile-links {
+            margin-top: 23px;
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .profile-links a {
+            color: #333;
+            text-decoration: none;
+
+            border-bottom: 1px solid #aaa;
+
+            padding-bottom: 1px;
+        }
+
+        .profile-links a:hover {
+            border-bottom-color: #000;
+        }
+
+
+        /* =========================================================
+           SECTIONS
+           ========================================================= */
+
+        section {
+            padding: 50px 0;
+        }
+
+        section h2 {
+            margin: 0 0 28px;
+
+            font-size: 1.85rem;
+            font-weight: 600;
+
+            color: #222;
+        }
+
+        section h3 {
+            margin-top: 30px;
+            margin-bottom: 15px;
+
+            font-size: 1.25rem;
+            font-weight: 600;
+
+            color: #333;
+        }
+
+        section p {
+            max-width: 950px;
+        }
+
+
+        /* =========================================================
+           ABOUT
+           ========================================================= */
+
+        .about p {
+            margin-bottom: 20px;
+        }
+
+
+        /* =========================================================
+           RESEARCH
+           ========================================================= */
+
+        .research-list {
+            display: grid;
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
+            gap: 18px 50px;
+
+            margin-top: 25px;
+        }
+
+        .research-item {
+            padding: 15px 0;
+
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .research-item strong {
+            color: #222;
+        }
+
+
+        /* =========================================================
+           EDUCATION
+           ========================================================= */
+
+        .education-item {
+            margin-bottom: 18px;
+        }
+
+        .education-degree {
+            font-weight: 600;
+        }
+
+
+        /* =========================================================
+           SELECTED PUBLICATIONS
+           ========================================================= */
+
+        .publication {
+            margin-bottom: 22px;
+
+            padding-left: 5px;
+        }
+
+        .publication-number {
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        .publication em {
+            font-style: italic;
+        }
+
+        .publication a {
+            word-break: break-word;
+        }
+
+
+        /* =========================================================
+           GRANTS
+           ========================================================= */
+
+        .grant {
+            margin-bottom: 22px;
+        }
+
+        .grant-title {
+            font-weight: 600;
+        }
+
+        .grant-role {
+            font-weight: 600;
+        }
+
+
+        /* =========================================================
+           AWARDS
+           ========================================================= */
+
+        .award-list {
+            padding-left: 25px;
+        }
+
+        .award-list li {
+            margin-bottom: 10px;
+        }
+
+
+        /* =========================================================
+           CONTACT
+           ========================================================= */
+
+        .contact-box {
+            margin-top: 20px;
+        }
+
+        .contact-box p {
+            margin: 5px 0;
+        }
+
+
+        /* =========================================================
+           FOOTER
+           ========================================================= */
+
+        footer {
+            border-top: 1px solid #e5e5e5;
+
+            padding: 30px 0;
+
+            color: #777;
+
+            font-size: 0.9rem;
+        }
+
+
+        /* =========================================================
+           MOBILE
+           ========================================================= */
+
+        @media (max-width: 800px) {
+
+            .nav-container {
+                flex-direction: column;
+                align-items: flex-start;
+
+                padding: 18px 0;
+            }
+
+            nav {
+                margin-top: 12px;
+
+                justify-content: flex-start;
+
+                gap: 14px 18px;
+            }
+
+            .profile {
+                flex-direction: column;
+                align-items: flex-start;
+
+                padding-top: 45px;
+            }
+
+            .profile-photo {
+                width: 160px;
+                height: 160px;
+            }
+
+            .profile-info h1 {
+                font-size: 2.15rem;
+            }
+
+            .research-list {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =============================================================
+     NAVIGATION
+     ============================================================= -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="site-name">
+            Qingxia Li
+        </a>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="research.html">Research</a>
+
+            <a href="publications.html">Publications</a>
+
+            <a href="grants.html">Grants</a>
+
+            <a href="teaching.html">Teaching</a>
+
+            <a href="recognition.html">Recognition</a>
+
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =============================================================
+     MAIN CONTENT
+     ============================================================= -->
+
+<main>
+
+<div class="container">
+
+
+<!-- =============================================================
+     PROFILE
+     ============================================================= -->
+
+<section class="profile">
+
+    <!--
+        Replace the image below with your actual photograph.
+
+        Example:
+        images/qingxia-li.jpg
+    -->
+
+    <img
+        src="images/qingxia-li.jpg"
+        alt="Dr. Qingxia Li"
+        class="profile-photo"
+    >
+
+
+    <div class="profile-info">
+
+        <h1>Qingxia Li</h1>
+
+        <p class="position">
+            Professor of Mathematics
+        </p>
+
+        <p>
+            Chair, Department of Mathematics and Computer Science
+        </p>
+
+        <p>
+            Associate Provost for Research
+        </p>
+
+        <p>
+            Director, Quality Enhancement Plan
+        </p>
+
+        <p>
+            Fisk University · Nashville, Tennessee
+        </p>
+
+
+        <div class="profile-links">
+
+            <a href="files/Qingxia_Li_CV.pdf">
+                CV
+            </a>
+
+            <a
+                href="https://scholar.google.com/"
+                target="_blank"
+            >
+                Google Scholar
+            </a>
+
+            <a
+                href="https://github.com/"
+                target="_blank"
+            >
+                GitHub
+            </a>
+
+            <a href="mailto:qli@fisk.edu">
+                Email
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =============================================================
+     ABOUT
+     ============================================================= -->
+
+<section class="about">
+
+    <h2>About</h2>
+
+    <p>
+        Dr. Qingxia Li is Professor of Mathematics and Chair of the
+        Department of Mathematics and Computer Science at Fisk University,
+        where he provides leadership in academic programs, faculty
+        development, curriculum innovation, and student success initiatives.
+        He is committed to expanding access to high-quality STEM education
+        and preparing students for careers in mathematics, computer science,
+        data science, and artificial intelligence.
+    </p>
+
+    <p>
+        Dr. Li earned his Ph.D. in Applied Mathematics from Louisiana State
+        University. His research spans applied mathematics, computational
+        science, artificial intelligence in STEM education, and evidence-based
+        teaching and learning. His current work focuses on developing
+        innovative instructional models that integrate data science, AI,
+        and project-based learning into undergraduate STEM curricula to
+        enhance student engagement, persistence, and workforce readiness.
+    </p>
+
+    <p>
+        In addition to serving as Chair of the Department of Mathematics and
+        Computer Science, Dr. Li serves as Associate Provost for Research at
+        Fisk University, where he supports institutional research development,
+        faculty scholarship, and interdisciplinary collaboration. He also
+        serves as Director of the Quality Enhancement Plan.
+    </p>
+
+    <p>
+        As Principal Investigator and Co-Principal Investigator on multiple
+        federally funded projects, Dr. Li has led initiatives supported by
+        the National Science Foundation (NSF), the Howard Hughes Medical
+        Institute (HHMI), the Mathematical Association of America (MAA),
+        the United Negro College Fund (UNCF), the National Institutes of
+        Health (NIH), the Alfred P. Sloan Foundation, and the U.S. Department
+        of Education.
+    </p>
+
+    <p>
+        Dr. Li is also an active mentor to undergraduate and graduate
+        students, supporting their academic development, research experiences,
+        graduate school preparation, and career advancement. His scholarship
+        has contributed to interdisciplinary STEM programs, faculty
+        profession
+```
